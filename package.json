@@ -1,6 +1,6 @@
 {
-  "name": "io-ts-types",
-  "version": "0.5.8",
+  "name": "@osdiab/io-ts-types",
+  "version": "0.6.0",
   "description": "A collection of codecs and combinators for use with io-ts",
   "files": [
     "lib",
