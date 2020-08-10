@@ -1,6 +1,6 @@
 {
   "name": "@osdiab/io-ts-types",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "A collection of codecs and combinators for use with io-ts",
   "main": "lib/index.js",
   "module": "es6/index.js",
