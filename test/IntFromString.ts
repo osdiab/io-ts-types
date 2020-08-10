@@ -1,6 +1,6 @@
 import { IntFromString } from '../src'
 import { assertSuccess, assertFailure } from './helpers'
-import * as t from 'io-ts'
+import * as t from '@osdiab/io-ts'
 
 const zero: t.Int = 0 as any
 const one: t.Int = 1 as any

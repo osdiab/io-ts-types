@@ -1,7 +1,7 @@
 /**
  * @since 0.5.0
  */
-import * as t from 'io-ts'
+import * as t from '@osdiab/io-ts'
 import { withValidate } from './withValidate'
 
 /**
@@ -9,7 +9,7 @@ import { withValidate } from './withValidate'
  *
  * @example
  * import { fromNullable } from 'io-ts-types/lib/fromNullable'
- * import * as t from 'io-ts'
+ * import * as t from '@osdiab/io-ts'
  * import { right } from 'fp-ts/lib/Either'
  * import { PathReporter } from '@osdiab/io-ts/lib/PathReporter'
  *

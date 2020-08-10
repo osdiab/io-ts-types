@@ -1,4 +1,4 @@
-import * as t from 'io-ts'
+import * as t from '@osdiab/io-ts'
 import { assertFailure } from './helpers'
 import { withMessage } from '../src'
 

@@ -30,7 +30,7 @@ export function withValidate<C extends t.Any>(codec: C, validate: C['validate'],
 
 ```ts
 import { withValidate } from 'io-ts-types/lib/withValidate'
-import * as t from 'io-ts'
+import * as t from '@osdiab/io-ts'
 import { PathReporter } from '@osdiab/io-ts/lib/PathReporter'
 import { either, right } from 'fp-ts/lib/Either'
 

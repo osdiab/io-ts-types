@@ -33,7 +33,7 @@ export function mapOutput<A, O, I, P>(
 **Example**
 
 ```ts
-import * as t from 'io-ts'
+import * as t from '@osdiab/io-ts'
 import { mapOutput } from 'io-ts-types/lib/mapOutput'
 import { optionFromNullable } from 'io-ts-types/lib/optionFromNullable'
 import { none, some } from 'fp-ts/lib/Option'

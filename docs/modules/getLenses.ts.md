@@ -53,7 +53,7 @@ export function getLenses<C extends HasLenses>(
 **Example**
 
 ```ts
-import * as t from 'io-ts'
+import * as t from '@osdiab/io-ts'
 import { getLenses } from 'io-ts-types/lib/getLenses'
 
 const Person = t.type({

@@ -1,7 +1,7 @@
 /**
  * @since 0.5.0
  */
-import * as t from 'io-ts'
+import * as t from '@osdiab/io-ts'
 import { Lens } from 'monocle-ts'
 
 /**
@@ -29,7 +29,7 @@ const fromProp = Lens.fromProp<any>()
  * Return a `Lens` for each prop
  *
  * @example
- * import * as t from 'io-ts'
+ * import * as t from '@osdiab/io-ts'
  * import { getLenses } from 'io-ts-types/lib/getLenses'
  *
  * const Person = t.type({

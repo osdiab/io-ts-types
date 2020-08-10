@@ -30,7 +30,7 @@ export function clone<C extends t.Any>(t: C): C { ... }
 
 ```ts
 import { clone } from 'io-ts-types/lib/clone'
-import * as t from 'io-ts'
+import * as t from '@osdiab/io-ts'
 
 assert.deepStrictEqual(clone(t.string), t.string)
 ```

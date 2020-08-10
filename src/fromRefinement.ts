@@ -1,7 +1,7 @@
 /**
  * @since 0.4.4
  */
-import * as t from 'io-ts'
+import * as t from '@osdiab/io-ts'
 
 /**
  * Returns a codec from a refinement

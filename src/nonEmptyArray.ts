@@ -1,7 +1,7 @@
 /**
  * @since 0.5.0
  */
-import * as t from 'io-ts'
+import * as t from '@osdiab/io-ts'
 import { NonEmptyArray, fromArray } from 'fp-ts/lib/NonEmptyArray'
 import { isNonEmpty } from 'fp-ts/lib/Array'
 import { either } from 'fp-ts/lib/Either'

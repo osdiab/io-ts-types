@@ -1,4 +1,4 @@
-import * as t from 'io-ts'
+import * as t from '@osdiab/io-ts'
 import { readonlySetFromArray } from '../../src'
 import { ordString } from 'fp-ts/lib/Ord'
 

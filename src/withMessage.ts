@@ -1,7 +1,7 @@
 /**
  * @since 0.4.3
  */
-import * as t from 'io-ts'
+import * as t from '@osdiab/io-ts'
 import { withValidate } from './withValidate'
 import { mapLeft } from 'fp-ts/lib/Either'
 
@@ -10,7 +10,7 @@ import { mapLeft } from 'fp-ts/lib/Either'
  *
  * @example
  * import { withMessage } from 'io-ts-types/lib/withMessage'
- * import * as t from 'io-ts'
+ * import * as t from '@osdiab/io-ts'
  * import { PathReporter } from '@osdiab/io-ts/lib/PathReporter'
  * import { right } from 'fp-ts/lib/Either'
  *

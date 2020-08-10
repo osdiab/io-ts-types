@@ -1,5 +1,5 @@
 import * as assert from 'assert'
-import * as t from 'io-ts'
+import * as t from '@osdiab/io-ts'
 import { PathReporter } from '@osdiab/io-ts/lib/PathReporter'
 import { isRight, isLeft } from 'fp-ts/lib/Either'
 

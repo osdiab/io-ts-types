@@ -1,13 +1,13 @@
 /**
  * @since 0.3.2
  */
-import * as t from 'io-ts'
+import * as t from '@osdiab/io-ts'
 
 /**
  * Changes the output type of the given runtime type
  *
  * @example
- * import * as t from 'io-ts'
+ * import * as t from '@osdiab/io-ts'
  * import { mapOutput } from 'io-ts-types/lib/mapOutput'
  * import { optionFromNullable } from 'io-ts-types/lib/optionFromNullable'
  * import { none, some } from 'fp-ts/lib/Option'

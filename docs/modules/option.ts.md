@@ -34,7 +34,7 @@ export interface OptionC<C extends t.Mixed> extends t.Type<Option<t.TypeOf<C>>, 
 import { option } from 'io-ts-types/lib/option'
 import { right } from 'fp-ts/lib/Either'
 import { none, some } from 'fp-ts/lib/Option'
-import * as t from 'io-ts'
+import * as t from '@osdiab/io-ts'
 import { PathReporter } from '@osdiab/io-ts/lib/PathReporter'
 
 const T = option(t.number)

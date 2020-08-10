@@ -3,7 +3,7 @@
  */
 import { either } from 'fp-ts/lib/Either'
 import { none, Option, option, some, toNullable } from 'fp-ts/lib/Option'
-import * as t from 'io-ts'
+import * as t from '@osdiab/io-ts'
 import { option as o } from './option'
 
 /**

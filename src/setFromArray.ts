@@ -3,7 +3,7 @@
  */
 import { Ord } from 'fp-ts/lib/Ord'
 import { every, fromArray, toArray } from 'fp-ts/lib/Set'
-import * as t from 'io-ts'
+import * as t from '@osdiab/io-ts'
 import { either } from 'fp-ts/lib/Either'
 
 /**

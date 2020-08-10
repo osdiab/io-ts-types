@@ -30,7 +30,7 @@ export function fromNullable<C extends t.Mixed>(codec: C, a: t.TypeOf<C>, name =
 
 ```ts
 import { fromNullable } from 'io-ts-types/lib/fromNullable'
-import * as t from 'io-ts'
+import * as t from '@osdiab/io-ts'
 import { right } from 'fp-ts/lib/Either'
 import { PathReporter } from '@osdiab/io-ts/lib/PathReporter'
 

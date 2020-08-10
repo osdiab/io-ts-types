@@ -1,14 +1,14 @@
 /**
  * @since 0.4.3
  */
-import * as t from 'io-ts'
+import * as t from '@osdiab/io-ts'
 
 /**
  * Returns a clone of the given codec
  *
  * @example
  * import { clone } from 'io-ts-types/lib/clone'
- * import * as t from 'io-ts'
+ * import * as t from '@osdiab/io-ts'
  *
  * assert.deepStrictEqual(clone(t.string), t.string)
  *

@@ -1,5 +1,5 @@
 import { nonEmptyArray } from '../src'
-import * as t from 'io-ts'
+import * as t from '@osdiab/io-ts'
 import { cons } from 'fp-ts/lib/NonEmptyArray'
 import * as assert from 'assert'
 import { assertFailure, assertSuccess } from './helpers'

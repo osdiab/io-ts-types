@@ -1,7 +1,7 @@
 /**
  * @since 0.5.0
  */
-import * as t from 'io-ts'
+import * as t from '@osdiab/io-ts'
 import { withValidate } from './withValidate'
 import { orElse } from 'fp-ts/lib/Either'
 
@@ -10,7 +10,7 @@ import { orElse } from 'fp-ts/lib/Either'
  *
  * @example
  * import { withFallback } from 'io-ts-types/lib/withFallback'
- * import * as t from 'io-ts'
+ * import * as t from '@osdiab/io-ts'
  * import { right } from 'fp-ts/lib/Either'
  *
  * const T = withFallback(t.number, -1)

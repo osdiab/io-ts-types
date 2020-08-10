@@ -2,7 +2,7 @@
  * @since 0.5.2
  */
 import { AnyNewtype, CarrierOf, iso } from 'newtype-ts'
-import * as t from 'io-ts'
+import * as t from '@osdiab/io-ts'
 import { either } from 'fp-ts/lib/Either'
 
 /**
@@ -10,7 +10,7 @@ import { either } from 'fp-ts/lib/Either'
  *
  * @example
  * import { fromNewtype } from 'io-ts-types/lib/fromNewtype'
- * import * as t from 'io-ts'
+ * import * as t from '@osdiab/io-ts'
  * import { right } from 'fp-ts/lib/Either'
  * import { PathReporter } from '@osdiab/io-ts/lib/PathReporter'
  * import { Newtype, iso } from 'newtype-ts'

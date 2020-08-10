@@ -1,7 +1,7 @@
 /**
  * @since 0.4.4
  */
-import * as t from 'io-ts'
+import * as t from '@osdiab/io-ts'
 import { fromRefinement } from './fromRefinement'
 
 const isRegExp = (u: unknown): u is RegExp => Object.prototype.toString.call(u) === '[object RegExp]'

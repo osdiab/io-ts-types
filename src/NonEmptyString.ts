@@ -1,7 +1,7 @@
 /**
  * @since 0.4.5
  */
-import * as t from 'io-ts'
+import * as t from '@osdiab/io-ts'
 
 /**
  * @since 0.4.5

@@ -1,5 +1,5 @@
 import * as assert from 'assert'
-import * as t from 'io-ts'
+import * as t from '@osdiab/io-ts'
 import { getLenses } from '../src'
 import { Lens } from 'monocle-ts'
 

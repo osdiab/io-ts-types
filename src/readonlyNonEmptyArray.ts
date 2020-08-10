@@ -1,7 +1,7 @@
 /**
  * @since 0.5.7
  */
-import * as t from 'io-ts'
+import * as t from '@osdiab/io-ts'
 import { nonEmptyArray } from './nonEmptyArray'
 
 /**

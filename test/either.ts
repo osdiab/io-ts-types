@@ -1,6 +1,6 @@
 import * as assert from 'assert'
 import { left, right } from 'fp-ts/lib/Either'
-import * as t from 'io-ts'
+import * as t from '@osdiab/io-ts'
 import { either } from '../src'
 import { assertFailure, assertSuccess } from './helpers'
 

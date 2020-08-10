@@ -1,5 +1,5 @@
 import * as assert from 'assert'
-import * as t from 'io-ts'
+import * as t from '@osdiab/io-ts'
 import { fromNewtype } from '../src'
 import { assertFailure, assertSuccess } from './helpers'
 import { Newtype, iso } from 'newtype-ts'
