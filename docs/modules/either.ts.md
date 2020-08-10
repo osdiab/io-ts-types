@@ -49,7 +49,7 @@ export function either<L extends t.Mixed, R extends t.Mixed>(
 import { either } from 'io-ts-types/lib/either'
 import { left, right } from 'fp-ts/lib/Either'
 import * as t from 'io-ts'
-import { PathReporter } from 'io-ts/lib/PathReporter'
+import { PathReporter } from '@osdiab/io-ts/lib/PathReporter'
 
 const T = either(t.string, t.number)
 

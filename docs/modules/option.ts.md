@@ -35,7 +35,7 @@ import { option } from 'io-ts-types/lib/option'
 import { right } from 'fp-ts/lib/Either'
 import { none, some } from 'fp-ts/lib/Option'
 import * as t from 'io-ts'
-import { PathReporter } from 'io-ts/lib/PathReporter'
+import { PathReporter } from '@osdiab/io-ts/lib/PathReporter'
 
 const T = option(t.number)
 

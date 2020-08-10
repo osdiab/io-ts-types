@@ -11,7 +11,7 @@ import { mapLeft } from 'fp-ts/lib/Either'
  * @example
  * import { withMessage } from 'io-ts-types/lib/withMessage'
  * import * as t from 'io-ts'
- * import { PathReporter } from 'io-ts/lib/PathReporter'
+ * import { PathReporter } from '@osdiab/io-ts/lib/PathReporter'
  * import { right } from 'fp-ts/lib/Either'
  *
  * const T = withMessage(t.number, () => 'Invalid number')

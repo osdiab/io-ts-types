@@ -1,6 +1,6 @@
 import * as assert from 'assert'
 import * as t from 'io-ts'
-import { PathReporter } from 'io-ts/lib/PathReporter'
+import { PathReporter } from '@osdiab/io-ts/lib/PathReporter'
 import { isRight, isLeft } from 'fp-ts/lib/Either'
 
 export function assertStrictEqual<T>(result: t.Validation<T>, expected: any): void {

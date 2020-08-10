@@ -32,7 +32,7 @@ export function fromNullable<C extends t.Mixed>(codec: C, a: t.TypeOf<C>, name =
 import { fromNullable } from 'io-ts-types/lib/fromNullable'
 import * as t from 'io-ts'
 import { right } from 'fp-ts/lib/Either'
-import { PathReporter } from 'io-ts/lib/PathReporter'
+import { PathReporter } from '@osdiab/io-ts/lib/PathReporter'
 
 const T = fromNullable(t.number, -1)
 
